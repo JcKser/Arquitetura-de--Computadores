@@ -705,9 +705,6 @@ Nibble InstructionExecution(Instruction i) {
 	case 0xF:
 		output = i["A"];
 		break;
-	case output = "P":
-		output = !i["P"] 
-		break;
 	default:
 		throwException("Erro na execucao da instrucao: Intrucao invalida(" + i[0] + ").");
 	}

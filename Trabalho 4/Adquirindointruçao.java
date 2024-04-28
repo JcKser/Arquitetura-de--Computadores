@@ -39,7 +39,7 @@ class AdquirindoInstrucao
             operacao = "5";
         }
 
-        else if (w.trim().equals("W=AXB;") || w.trim().equals("W=AXB")) // Se a linha contiver "W=AxB;" ou "W=AxB", a operacao eh "6"
+        else if (w.trim().equals("W=AxB;") || w.trim().equals("W=AxB")) // Se a linha contiver "W=AxB;" ou "W=AxB", a operacao eh "6"
         {
             operacao = "6";
         }
@@ -54,7 +54,7 @@ class AdquirindoInstrucao
             operacao = "8";
         }
 
-        else if (w.trim().equals("W=nAXnB;") || w.trim().equals("W=nAXnB")) // Se a linha contiver "W=nAxnB;" ou "W=nAxnB", a operacao eh "9"
+        else if (w.trim().equals("W=nAxnB;") || w.trim().equals("W=nAxnB")) // Se a linha contiver "W=nAxnB;" ou "W=nAxnB", a operacao eh "9"
         {
             operacao = "9";
         }
